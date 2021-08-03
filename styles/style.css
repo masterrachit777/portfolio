@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&family=Ubuntu:wght@300;700&display=swap');
+
+/* font-family: 'Style Script', cursive;
+font-family: 'Ubuntu', sans-serif; */
+
+html{
+    scroll-behavior: smooth;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+*{ 
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(19, 18, 18);
+}
+
+.nav-item{
+    margin: 0 10px;
+}
+
+.nav-item p{
+    margin-right: 30px;
+}
+
+#about img{
+    width: auto;
+    height: 40vh;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgb(129, 129, 129); 
+} 
+
+.nav-item a{
+    padding: 5px 15px;
+    text-decoration: none;
+    color: rgb(180, 179, 179);
+    font-size: 1.1rem;
+}
+
+.nav-item a:hover{
+    color: whitesmoke;
+    text-shadow: 0 0 5px darkgray;
+}
+
+div.container{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    height: 70vh;
+    /* border-bottom: 1px solid grey; */
+}
+
+.intro-head img{
+    width: 100%;
+    height: 70vh;
+    position: absolute;
+    inset: 0;
+}
+
+#contact{
+    background-color: rgb(110, 168, 255);
+}
+
+.flex-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+
+#course img{
+    height: 50vh;
+    width: auto;
+}
+
+.content h1{
+    margin: 10% 0 2.5%;
+    font-size: 3rem;
+    color: rgb(31, 31, 31);
+}
+
+table{
+    border-collapse: collapse;
+    width: 24vw;
+    text-align: left;
+    font-size: 1.3rem;
+} 
+
+th, td{
+    border-bottom: 1px solid rgb(182, 179, 179);
+    padding: 5px;
+    color: rgb(31, 31, 31);
+}
+
+.contact-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+.head-item{
+    font-size: 4rem;
+    font-weight: 700;
+    padding: 5%;
+    margin: 4% 5%;
+    position: absolute;
+    color: rgb(226, 226, 226);
+    text-shadow: -3px 3px 3px rgb(102, 102, 102);
+}
+
+#plans img{
+    height: 40vh;
+    width: auto;
+}
+
+#hobbies{
+    background-color: rgb(39, 37, 37);
+    height: 75vh;
+}
+
+#hobbies h1{
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(235, 232, 232);
+    padding: 2.5% 0 0;
+    text-shadow: -3px 3px 3px rgb(102, 102, 102);
+}
+
+.hobbies-card{
+    border-radius: 15px;
+    box-shadow: -10px 10px 15px black;
+    background-color: white;
+}
+
+.hobbies-img{
+    padding: 20px;
+    margin: 20px;
+}
+
+.hobbies-card div img{
+    width: 18vw;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 8px 5px rgb(129, 129, 129);
+}
+
+.hobbies-card p{
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(32, 32, 32);
+    font-weight: 700;
+    font-family: 'Style Script', cursive;
+}
+
+.hobbies-link{
+    text-align: center;
+    margin-bottom: 10px;
+    position: relative;
+    top: -10px;
+}
+
+.hobbies-link a{
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(110, 110, 110);
+}
+
+.hobbies-link a:hover{
+    text-decoration: underline;
+    color:rgb(31, 31, 31);
+}
+
+.flex-item h1{
+    font-size: 3rem;
+    color: rgb(31, 31, 31);
+}
+
+.flex-item p{
+    font-size: 1.5rem;
+    color: rgb(31,31,31);
+}
+
+span{
+    font-family: 'Style Script', cursive;
+    font-weight: 700;
+}
+
+.contact-item h1{
+    color: rgb(31, 31, 31);
+    font-size: 2rem;
+}
+
+.social-handles{
+    margin: 20px 0;
+}
+
+.social-link{
+    margin: 10px 0;
+}
+
+.social-link a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color:rgb(31, 31, 31);
+}
+
+.social-link p{
+    display: inline;
+}
+
+#linkedin a:hover{
+    color: rgb(3, 34, 121);
+}
+
+#github a:hover{
+    color: rgb(75, 75, 75);
+}
+
+#twitter a:hover{
+    color: rgb(0, 114, 185);
+}
+
+#insta a:hover{
+    color: rgb(240, 52, 80);
+}
+
+#mail a:hover{
+    color: rgb(102, 0, 0);
+}
+
+form{
+    font-size: 1.2rem;
+}
+
+.form-item{
+    border-radius: 5px;
+    border: none;
+    margin: 10px 0;
+    box-shadow: 0 3px 2px rgb(70, 70, 70);
+    padding: 5px;
+}
+
+form button{
+    border-radius: 5px;
+    border: none;
+    padding: 8px;
+    box-shadow: 0 3px 2px rgb(70, 70, 70);
+    background-color: rgb(0, 49, 58);
+    color: white;
+}
+
+form button:hover{
+    background-color:rgb(1, 85, 100);
+    cursor: pointer;
+}
+
+/* scrollbar */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgb(240, 240, 240); 
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(29, 29, 29);
+    width: 10px; 
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(81, 81, 81);
+}
